@@ -51,6 +51,7 @@
         to tell the _webpack dev server_ to *serve* the files from the _dist directory_ on _localhost:8080_.
 
     11. `"watch": "webpack --watch"` and `"start": "webpack serve --open",`, to add a script to easily run the dev server as well, in _scripts_, _package.json_.
+    12. Add **.gitignore** to the project directory and _node_modules_ to it. 
 
     **Running _npm start_ from the command line will automatically load up our page** 
 
